@@ -2,235 +2,292 @@
   "Jewelry": [
     {
       "kind": "EndlessBowlOfSpicyFlametigerRamen",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "EndlessBowlOfSpicyFlametigerRamen",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "EndlessBowlOfSpicyFlametigerRamen",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "EndlessBowlOfSpicyFlametigerRamen",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
-    },
-    {
-      "kind": "FoxKanzashi",
-      "setKind": "Fox"
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
       "kind": "TreantKokeshi",
-      "setKind": "Treant"
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     },
     {
       "kind": "TreantKokeshi",
-      "setKind": "Treant"
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     },
     {
       "kind": "TreantKokeshi",
-      "setKind": "Treant"
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     },
     {
       "kind": "TreantKokeshi",
-      "setKind": "Treant"
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     },
     {
       "kind": "TreantKokeshi",
-      "setKind": "Treant"
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     },
     {
       "kind": "TreantKokeshi",
-      "setKind": "Treant"
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     },
     {
       "kind": "TreantKokeshi",
-      "setKind": "Treant"
+      "setKind": "Treant",
+      "setEffectMult": 1.25
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox",
+      "setEffectMult": 1.1
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox",
+      "setEffectMult": 1.1
+    },
+    {
+      "kind": "ScreenOfTheSneakyFlametiger",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FoxEma",
+      "setKind": "Fox",
+      "setEffectMult": 1.1
+    },
+    {
+      "kind": "FlametigerPortableHotSpring",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FairyBrooch",
+      "setKind": "Fairy",
+      "setEffectMult": 1.14
+    },
+    {
+      "kind": "FoxMask",
+      "setKind": "Fox",
+      "setEffectMult": 1.1
+    },
+    {
+      "kind": "TreantAmulet",
+      "setKind": "Treant",
+      "setEffectMult": 1.25
+    },
+    {
+      "kind": "TreantLamp",
+      "setKind": "Treant",
+      "setEffectMult": 1.25
+    },
+    {
+      "kind": "TreantLunchbox",
+      "setKind": "Treant",
+      "setEffectMult": 1.25
+    },
+    {
+      "kind": "FairyLamp",
+      "setKind": "Fairy",
+      "setEffectMult": 1.14
     }
   ],
   "Armor": [
     {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "FlametigerCostume",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
       "kind": "FairyClothes",
-      "setKind": "Fairy"
+      "setKind": "Fairy",
+      "setEffectMult": 1.14
     },
     {
-      "kind": "FairyClothes",
-      "setKind": "Fairy"
+      "kind": "TreantChoppingBoard",
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     },
     {
-      "kind": "FairyClothes",
-      "setKind": "Fairy"
-    },
-    {
-      "kind": "FairyClothes",
-      "setKind": "Fairy"
-    },
-    {
-      "kind": "FairyClothes",
-      "setKind": "Fairy"
-    },
-    {
-      "kind": "FairyClothes",
-      "setKind": "Fairy"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FlametigerStripedBriefs",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "FoxLoincloth",
-      "setKind": "Fox"
+      "kind": "TreantHaniwa",
+      "setKind": "Treant",
+      "setEffectMult": 1.25
     }
   ],
   "Weapon": [
     {
-      "kind": "DevilfishSword",
-      "setKind": "Devilfish"
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
-      "kind": "DevilfishSword",
-      "setKind": "Devilfish"
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
-      "kind": "DevilfishSword",
-      "setKind": "Devilfish"
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
-      "kind": "DevilfishSword",
-      "setKind": "Devilfish"
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
-      "kind": "DevilfishSword",
-      "setKind": "Devilfish"
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
-      "kind": "DevilfishSword",
-      "setKind": "Devilfish"
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
       "kind": "FairyShuriken",
-      "setKind": "Fairy"
+      "setKind": "Fairy",
+      "setEffectMult": 1.14
     },
     {
       "kind": "FairyShuriken",
-      "setKind": "Fairy"
+      "setKind": "Fairy",
+      "setEffectMult": 1.14
     },
     {
-      "kind": "FairyShuriken",
-      "setKind": "Fairy"
+      "kind": "FlametigerVolcanicShield",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     },
     {
-      "kind": "FairyShuriken",
-      "setKind": "Fairy"
-    },
-    {
-      "kind": "FairyShuriken",
-      "setKind": "Fairy"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
-    },
-    {
-      "kind": "RingOfFlametigersWrath",
-      "setKind": "Flametiger"
+      "kind": "TorchOfEverburningFlametiger",
+      "setKind": "Flametiger",
+      "setEffectMult": 1.5
     }
   ]
 }

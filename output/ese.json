@@ -53,14 +53,37 @@
     }
   },
   {
+    "kind": "FairyShuriken",
+    "part": "Weapon",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.119047619047619,
+      "effects": 22.047619047619047,
+      "sum": 29.166666666666664
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "StoneGain": 8.59504132231405,
+      "ATKMultiplier": 12.58095238095238,
+      "ATKPropotion": 9.666666666666666,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "MATKMultiplier": 0.2,
+      "CriticalDamage": 0.1,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
     "kind": "DevilfishSword",
     "part": "Weapon",
     "setKind": "Devilfish",
     "ese": {
       "slots": 6,
-      "masteries": 0.16666666666666669,
-      "effects": 21.222222222222225,
-      "sum": 27.388888888888893
+      "masteries": 1.119047619047619,
+      "effects": 21.603174603174605,
+      "sum": 28.72222222222222
     },
     "relEffects": {
       "HPAdder": 4.297520661157025,
@@ -77,23 +100,24 @@
     }
   },
   {
-    "kind": "FairyShuriken",
+    "kind": "FairyWing",
     "part": "Weapon",
     "setKind": "Fairy",
     "ese": {
       "slots": 6,
-      "masteries": 0.16666666666666669,
-      "effects": 9.666666666666666,
-      "sum": 15.833333333333332
+      "masteries": 1.119047619047619,
+      "effects": 11.023809523809524,
+      "sum": 18.142857142857142
     },
     "relEffects": {
       "MPAdder": 4.297520661157025,
-      "StoneGain": 8.59504132231405,
-      "ATKMultiplier": 12.58095238095238,
-      "ATKPropotion": 9.666666666666666,
+      "LeafGain": 8.59504132231405,
+      "ATKMultiplier": 6.390476190476191,
+      "ATKPropotion": 4.833333333333333,
+      "MATKMultiplier": 6.390476190476191,
+      "MATKPropotion": 4.833333333333333,
       "FairyKnowledge": 2.4242424242424243,
       "FairyDropChance": 0.984848484848485,
-      "MATKMultiplier": 0.2,
       "CriticalDamage": 0.1,
       "SPDAdder": 200,
       "TamingPoint": 0.5
@@ -243,6 +267,34 @@
     }
   },
   {
+    "kind": "TreantDagger",
+    "part": "Weapon",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.119047619047619,
+      "effects": 6.666666666666667,
+      "sum": 13.785714285714285
+    },
+    "relEffects": {
+      "SPDAdder": 200,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "PhysicalDamage": 6.666666666666667,
+      "FireDamage": 6.666666666666667,
+      "IceDamage": 6.666666666666667,
+      "ThunderDamage": 6.666666666666667,
+      "LightDamage": 6.666666666666667,
+      "DarkDamage": 6.666666666666667,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "MATKMultiplier": 0.2,
+      "CriticalDamage": 0.1,
+      "TamingPoint": 0.5
+    }
+  },
+  {
     "kind": "SpiderWing",
     "part": "Weapon",
     "setKind": "Spider",
@@ -290,31 +342,50 @@
     }
   },
   {
-    "kind": "TreantDagger",
+    "kind": "DevilfishWing",
     "part": "Weapon",
-    "setKind": "Treant",
+    "setKind": "Devilfish",
     "ese": {
       "slots": 6,
-      "masteries": 0.16666666666666669,
-      "effects": 6.666666666666667,
-      "sum": 12.833333333333334
+      "masteries": 1.119047619047619,
+      "effects": 6.190476190476191,
+      "sum": 13.30952380952381
     },
     "relEffects": {
-      "SPDAdder": 200,
-      "MoveSpeedAdder": 0,
-      "MoveSpeedMultiplier": 0,
-      "PhysicalDamage": 6.666666666666667,
-      "FireDamage": 6.666666666666667,
-      "IceDamage": 6.666666666666667,
-      "ThunderDamage": 6.666666666666667,
-      "LightDamage": 6.666666666666667,
-      "DarkDamage": 6.666666666666667,
-      "TreantKnowledge": 2.4242424242424243,
-      "TreantDropChance": 0.984848484848485,
-      "ATKMultiplier": 0.2,
-      "MATKMultiplier": 0.2,
+      "HPAdder": 4.297520661157025,
+      "HPMultiplier": 1.380952380952381,
+      "ATKMultiplier": 6.390476190476191,
+      "MATKMultiplier": 6.390476190476191,
+      "FireResistance": 4.090909090909091,
+      "AngelSkillLevel": 2.6363636363636362,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
       "CriticalDamage": 0.1,
+      "SPDAdder": 200,
       "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "BatSword",
+    "part": "Weapon",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 6.190476190476191,
+      "sum": 12.682900432900432
+    },
+    "relEffects": {
+      "SPDAdder": 104.29752066115702,
+      "ATKAdder": 10.743801652892563,
+      "ATKMultiplier": 6.190476190476191,
+      "WarriorSkillLevel": 2.6363636363636362,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "TamingPoint": 0.25
     }
   },
   {
@@ -390,30 +461,6 @@
     }
   },
   {
-    "kind": "FairyWing",
-    "part": "Weapon",
-    "setKind": "Fairy",
-    "ese": {
-      "slots": 6,
-      "masteries": 0.16666666666666669,
-      "effects": 4.833333333333333,
-      "sum": 11
-    },
-    "relEffects": {
-      "MPAdder": 4.297520661157025,
-      "LeafGain": 8.59504132231405,
-      "ATKMultiplier": 6.390476190476191,
-      "ATKPropotion": 4.833333333333333,
-      "MATKMultiplier": 6.390476190476191,
-      "MATKPropotion": 4.833333333333333,
-      "FairyKnowledge": 2.4242424242424243,
-      "FairyDropChance": 0.984848484848485,
-      "CriticalDamage": 0.1,
-      "SPDAdder": 200,
-      "TamingPoint": 0.5
-    }
-  },
-  {
     "kind": "MagicSlimeBow",
     "part": "Weapon",
     "setKind": "Magicslime",
@@ -465,9 +512,9 @@
     "setKind": "Fox",
     "ese": {
       "slots": 6,
-      "masteries": 0.16666666666666669,
+      "masteries": 1.119047619047619,
       "effects": 2.666666666666667,
-      "sum": 8.833333333333334
+      "sum": 9.785714285714285
     },
     "relEffects": {
       "GoldGain": 3.0952380952380953,
@@ -488,9 +535,9 @@
     "setKind": "Devilfish",
     "ese": {
       "slots": 6,
-      "masteries": 0.16666666666666669,
+      "masteries": 1.119047619047619,
       "effects": 2.5757575757575757,
-      "sum": 8.742424242424242
+      "sum": 9.694805194805195
     },
     "relEffects": {
       "HPAdder": 4.297520661157025,
@@ -578,6 +625,28 @@
     }
   },
   {
+    "kind": "SlimeSword",
+    "part": "Weapon",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 1.2380952380952381,
+      "sum": 7.73051948051948
+    },
+    "relEffects": {
+      "ATKAdder": 4.214876033057851,
+      "ATKMultiplier": 1.2380952380952381,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
     "kind": "DevilfishScarf",
     "part": "Armor",
     "setKind": "Devilfish",
@@ -642,6 +711,77 @@
       "MDEFMultiplier": 0.1,
       "HpRegen": 10,
       "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "FairyStaff",
+    "part": "Weapon",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.119047619047619,
+      "effects": 0,
+      "sum": 7.119047619047619
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "CrystalGain": 8.59504132231405,
+      "MATKMultiplier": 12.58095238095238,
+      "MATKPropotion": 9.666666666666666,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "CriticalDamage": 0.1,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "TreantHagoita",
+    "part": "Weapon",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.119047619047619,
+      "effects": 0,
+      "sum": 7.119047619047619
+    },
+    "relEffects": {
+      "SPDAdder": 200,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "TamingPoint": 12.318181818181817,
+      "PetEXPGain": 11.818181818181817,
+      "LoyaltyPointGain": 11.818181818181817,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "MATKMultiplier": 0.2,
+      "CriticalDamage": 0.1
+    }
+  },
+  {
+    "kind": "SlimeWing",
+    "part": "Weapon",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0.6190476190476191,
+      "sum": 7.111471861471861
+    },
+    "relEffects": {
+      "ATKMultiplier": 0.6190476190476191,
+      "MATKMultiplier": 0.6190476190476191,
+      "LightDamage": 7.878787878787879,
+      "AngelSkillLevel": 2.6363636363636362,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
     }
   },
   {
@@ -885,52 +1025,6 @@
     }
   },
   {
-    "kind": "SlimeSword",
-    "part": "Weapon",
-    "setKind": "Slime",
-    "ese": {
-      "slots": 6,
-      "masteries": 0.49242424242424243,
-      "effects": 0,
-      "sum": 6.492424242424242
-    },
-    "relEffects": {
-      "ATKAdder": 4.214876033057851,
-      "ATKMultiplier": 1.2380952380952381,
-      "SlimeKnowledge": 2.4242424242424243,
-      "SlimeDropChance": 0.984848484848485,
-      "ATKPropotion": 0.25,
-      "MATKPropotion": 0.25,
-      "SkillProficiency": 0.05,
-      "SPDAdder": 100,
-      "TamingPoint": 0.25
-    }
-  },
-  {
-    "kind": "SlimeWing",
-    "part": "Weapon",
-    "setKind": "Slime",
-    "ese": {
-      "slots": 6,
-      "masteries": 0.49242424242424243,
-      "effects": 0,
-      "sum": 6.492424242424242
-    },
-    "relEffects": {
-      "ATKMultiplier": 0.6190476190476191,
-      "MATKMultiplier": 0.6190476190476191,
-      "LightDamage": 7.878787878787879,
-      "AngelSkillLevel": 2.6363636363636362,
-      "SlimeKnowledge": 2.4242424242424243,
-      "SlimeDropChance": 0.984848484848485,
-      "ATKPropotion": 0.25,
-      "MATKPropotion": 0.25,
-      "SkillProficiency": 0.05,
-      "SPDAdder": 100,
-      "TamingPoint": 0.25
-    }
-  },
-  {
     "kind": "SlimeDart",
     "part": "Weapon",
     "setKind": "Slime",
@@ -1060,29 +1154,6 @@
       "MATKPropotion": 0.25,
       "SkillProficiency": 0.05,
       "SPDAdder": 100
-    }
-  },
-  {
-    "kind": "BatSword",
-    "part": "Weapon",
-    "setKind": "Bat",
-    "ese": {
-      "slots": 6,
-      "masteries": 0.49242424242424243,
-      "effects": 0,
-      "sum": 6.492424242424242
-    },
-    "relEffects": {
-      "SPDAdder": 104.29752066115702,
-      "ATKAdder": 10.743801652892563,
-      "ATKMultiplier": 6.190476190476191,
-      "WarriorSkillLevel": 2.6363636363636362,
-      "BatKnowledge": 2.4242424242424243,
-      "BatDropChance": 0.984848484848485,
-      "ATKPropotion": 0.25,
-      "MATKPropotion": 0.25,
-      "SkillProficiency": 0.05,
-      "TamingPoint": 0.25
     }
   },
   {
@@ -1367,77 +1438,6 @@
       "RebirthPointGain1": 0.025,
       "TownMatAreaClearGain": 2,
       "LoyaltyPointGain": 0.2
-    }
-  },
-  {
-    "kind": "FairyStaff",
-    "part": "Weapon",
-    "setKind": "Fairy",
-    "ese": {
-      "slots": 6,
-      "masteries": 0.16666666666666669,
-      "effects": 0,
-      "sum": 6.166666666666667
-    },
-    "relEffects": {
-      "MPAdder": 4.297520661157025,
-      "CrystalGain": 8.59504132231405,
-      "MATKMultiplier": 12.58095238095238,
-      "MATKPropotion": 9.666666666666666,
-      "FairyKnowledge": 2.4242424242424243,
-      "FairyDropChance": 0.984848484848485,
-      "ATKMultiplier": 0.2,
-      "CriticalDamage": 0.1,
-      "SPDAdder": 200,
-      "TamingPoint": 0.5
-    }
-  },
-  {
-    "kind": "DevilfishWing",
-    "part": "Weapon",
-    "setKind": "Devilfish",
-    "ese": {
-      "slots": 6,
-      "masteries": 0.16666666666666669,
-      "effects": 0,
-      "sum": 6.166666666666667
-    },
-    "relEffects": {
-      "HPAdder": 4.297520661157025,
-      "HPMultiplier": 1.380952380952381,
-      "ATKMultiplier": 6.390476190476191,
-      "MATKMultiplier": 6.390476190476191,
-      "FireResistance": 4.090909090909091,
-      "AngelSkillLevel": 2.6363636363636362,
-      "DevilFishKnowledge": 2.4242424242424243,
-      "DevilFishDropChance": 0.984848484848485,
-      "CriticalDamage": 0.1,
-      "SPDAdder": 200,
-      "TamingPoint": 0.5
-    }
-  },
-  {
-    "kind": "TreantHagoita",
-    "part": "Weapon",
-    "setKind": "Treant",
-    "ese": {
-      "slots": 6,
-      "masteries": 0.16666666666666669,
-      "effects": 0,
-      "sum": 6.166666666666667
-    },
-    "relEffects": {
-      "SPDAdder": 200,
-      "MoveSpeedAdder": 0,
-      "MoveSpeedMultiplier": 0,
-      "TamingPoint": 12.318181818181817,
-      "PetEXPGain": 11.818181818181817,
-      "LoyaltyPointGain": 11.818181818181817,
-      "TreantKnowledge": 2.4242424242424243,
-      "TreantDropChance": 0.984848484848485,
-      "ATKMultiplier": 0.2,
-      "MATKMultiplier": 0.2,
-      "CriticalDamage": 0.1
     }
   },
   {

@@ -17,3 +17,7 @@ export let itemSlots = {
 };
 //how many enchants to use
 export let enchantSlots = 342;
+//how highly we value to complete a set
+//  0.06 is about the moth math accurate
+//  but because we are adding one item after another there might be edge cases and its worth testing out which one gives the best totalValue
+export let setBias = 0.075;

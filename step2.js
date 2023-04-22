@@ -1,7 +1,7 @@
 import fs from "fs";
 
-import { itemSlots, enchantSlots } from "./userInput.js";
-import enchantUsage from "./enchantUsage.json" assert { type: "json" };
+import { itemSlots, enchantSlots, setBias } from "./userInput.js";
+import { enchantUsage } from "./enchantUsage.js";
 
 import items from "./output/ese.json" assert { type: "json" };
 
@@ -19,9 +19,25 @@ let bestItems = {
   Weapon: [],
 };
 
+let setItemsEffectMult = [1, 1, 1.05, 1.1, 1.14, 1.19, 1.25, 1.35, 1.5];
+let setItems = {};
+for (let item of items) {
+  item.setEffectMult = 0;
+  if (item.setKind !== "Nothing") {
+    if (!setItems[item.setKind]) {
+      setItems[item.setKind] = {
+        newSetItemValue: 0,
+        activeSetItems: 0,
+      };
+    }
+    setItems[item.setKind][item.kind] = false;
+  }
+}
+
 const findBestItem = (part) => {
   for (let item of items) {
     if (item.part === part) {
+      //items is sorted, so we just return the first which matches the part
       return item;
     }
   }
@@ -29,26 +45,49 @@ const findBestItem = (part) => {
   return null;
 };
 
-const addItem = (item) => {
-  bestItems[item.part].push(item);
-
-  //update the totalEse
+const addItemToTotalEse = (item) => {
   for (let effectKind in item.relEffects) {
-    if (!enchantUsage[effectKind]) {
-      continue;
-    }
     if (item.relEffects[effectKind] === 0) {
       continue;
     }
 
-    if (typeof totalEse[effectKind] === "undefined") {
-      totalEse[effectKind] = 0;
-    }
-    totalEse[effectKind] += item.relEffects[effectKind];
+    totalEse[effectKind] += item.relEffects[effectKind] * item.setEffectMult;
   }
 };
 
-const getTotalEnchantsValue = (enchants, enchants2) => {
+const addItem = (item) => {
+  if (!setItems[item.setKind][item.kind]) {
+    setItems[item.setKind][item.kind] = true;
+    setItems[item.setKind].activeSetItems++;
+
+    //update all set item strength
+    for (let setItem of items) {
+      if (setItem.setKind === item.setKind) {
+        setItem.setEffectMult =
+          setItemsEffectMult[setItems[item.setKind].activeSetItems];
+      }
+    }
+
+    //recalculate totalEse with changed set strength
+    for (let effectKind in totalEse) {
+      totalEse[effectKind] = 0;
+    }
+    for (let part in bestItems) {
+      for (let item in bestItems[part]) {
+        addItemToTotalEse(item);
+      }
+    }
+  }
+
+  bestItems[item.part].push(item);
+
+  //update the totalEse
+  addItemToTotalEse(item);
+};
+
+//TODO return a object not a float
+// have seperate values for dps and gains, ...
+const getTotalEnchantsValue = (enchants, enchantsToAdd) => {
   let total = 1;
 
   //TODO improve the accuracy
@@ -62,8 +101,8 @@ const getTotalEnchantsValue = (enchants, enchants2) => {
     }
 
     let effectValue = enchants[effectKind];
-    if (enchants2 && enchants2[effectKind]) {
-      effectValue += enchants2[effectKind];
+    if (enchantsToAdd && enchantsToAdd[effectKind]) {
+      effectValue += enchantsToAdd[effectKind];
     }
 
     total *= 1 + effectValue;
@@ -78,8 +117,21 @@ const updateEse = () => {
     totalEseWithEnchants[effectKind] = totalEse[effectKind];
   }
 
-  //TODO add enchants where they are ideal
-  //totalEseWithEnchants
+  //calcualte the average set effect mult, new enchants will use this one
+  let averageSetEffectMult = 1;
+  let equippedItemCount = 0;
+  for (let part in bestItems) {
+    for (let item of bestItems[part]) {
+      equippedItemCount++;
+
+      if (equippedItemCount === 1) averageSetEffectMult = item.setEffectMult;
+      else averageSetEffectMult += item.setEffectMult;
+    }
+  }
+  if (equippedItemCount > 0) {
+    averageSetEffectMult /= equippedItemCount;
+  }
+
   let enchantsToSpent = enchantSlots;
   while (enchantsToSpent > 0) {
     let lowestEffectKind = "";
@@ -94,12 +146,11 @@ const updateEse = () => {
       }
     }
 
-    totalEseWithEnchants[lowestEffectKind]++;
+    //TODO include average setEffectMult
+    totalEseWithEnchants[lowestEffectKind] += averageSetEffectMult;
     enchantsToSpent--;
   }
   //TODO do this for up to +7 enchants for item.ese.slots
-
-  //TODO improve the ese sum for items which work towards an incomplete set
 
   for (let item of items) {
     //TODO factor in item.ese.slots, choose the totalEseWithEnchants accordingly
@@ -107,6 +158,23 @@ const updateEse = () => {
       totalEseWithEnchants,
       item.relEffects
     );
+  }
+
+  //after all new itemValues have been calculated, update the setItemValues
+  //  and increase the value of items which are part of an incomplete set
+  for (let setKind in setItems) {
+    setItems[setKind].newSetItemValue = 0;
+  }
+  for (let itemPart in bestItems) {
+    for (let item of bestItems[itemPart]) {
+      setItems[item.setKind].newSetItemValue += item.ese.updatedSum * setBias;
+    }
+  }
+  for (let item of items) {
+    //if this is a new set item, add the value of the other items atop of it
+    if (!setItems[item.setKind][item.kind]) {
+      item.ese.updatedSum += setItems[item.setKind].newSetItemValue;
+    }
   }
 
   items.sort((a, b) => {
@@ -142,11 +210,11 @@ const constructBestItems = () => {
 constructBestItems();
 for (let part in bestItems) {
   bestItems[part].sort((a, b) => {
-    if (a.kind < b.kind) {
-      return -1;
-    }
-    if (a.kind > b.kind) {
+    if (a.ese.sum < b.ese.sum) {
       return 1;
+    }
+    if (a.ese.sum > b.ese.sum) {
+      return -1;
     }
     return 0;
   });
@@ -168,9 +236,24 @@ for (let effectKind in totalEseWithEnchants) {
   }
 }
 
-fs.writeFileSync("output/bestTotalEse.json", JSON.stringify(totalEse, null, 2));
+console.log({
+    setItems,
+    totalValue: getTotalEnchantsValue(totalEseWithEnchants),
+});
+//breakdown totalEseWithEnchants by sources
+
+
+
+const fileSuffix = "";
 fs.writeFileSync(
-  "output/bestEnchants.json",
+  `output/bestTotalEseWithEnchants${fileSuffix}.json`,
+  JSON.stringify(totalEseWithEnchants, null, 2)
+);
+fs.writeFileSync(
+  `output/bestEnchants${fileSuffix}.json`,
   JSON.stringify(bestEnchants, null, 2)
 );
-fs.writeFileSync("output/bestItems.json", JSON.stringify(bestItems, null, 2));
+fs.writeFileSync(
+  `output/bestItems${fileSuffix}.json`,
+  JSON.stringify(bestItems, null, 2)
+);

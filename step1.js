@@ -4,7 +4,7 @@ import { itemLevel, includeMastery, curseAnvil, lottery } from "./userInput.js";
 
 import data from "./data.json" assert { type: "json" };
 
-import enchantUsage from "./enchantUsage.json" assert { type: "json" };
+import { enchantUsage } from "./enchantUsage.js";
 
 let enchantUsageAddedNew = false;
 
