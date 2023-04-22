@@ -1,3 +1,5 @@
+// which enchants should be considered for the calculation
+//atm empty string get ignored, anything entered in the string will be considered
 {
   "UnicornKnowledge": "",
   "HPAdder": "",
