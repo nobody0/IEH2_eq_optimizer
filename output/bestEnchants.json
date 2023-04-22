@@ -1,0 +1,23 @@
+{
+  "ATKPropotion": 0,
+  "PhysicalCritical": 0,
+  "EXPGain": 21,
+  "SkillProficiency": 28,
+  "EquipmentProficiency": 29,
+  "IceDamage": 30,
+  "TownMatGain": 0,
+  "RebirthPointGain1": 30,
+  "RebirthPointGain2": 30,
+  "RebirthPointGain3": 30,
+  "CriticalDamage": 0,
+  "BlessingEffect": 0,
+  "WardedFury": 0,
+  "GuildEXPGain": 30,
+  "CriticalDamageMultiplier": 30,
+  "SkillProficiencyMultiplier": 29,
+  "EquipmentProficiencyMultiplier": 30,
+  "EXPGainMultiplier": 0,
+  "IceDamageMultiplier": 10,
+  "BlessingEffectMultiplier": 15,
+  "PhysicalCriticalMultiplier": 0
+}

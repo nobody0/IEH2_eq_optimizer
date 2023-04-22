@@ -1,0 +1,1688 @@
+[
+  {
+    "kind": "RingOfFlametigersWrath",
+    "part": "Weapon",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 0,
+      "effects": 28.839826839826834,
+      "sum": 35.839826839826834
+    },
+    "relEffects": {
+      "EXPGain": 0,
+      "FireDamageMultiplier": 2.4761904761904763,
+      "IceDamageMultiplier": 2.4761904761904763,
+      "ThunderDamageMultiplier": 2.4761904761904763,
+      "LightDamageMultiplier": 2.4761904761904763,
+      "DarkDamageMultiplier": 2.4761904761904763,
+      "WardedFury": 26.36363636363636,
+      "MDEFAdder": 42.97520661157025,
+      "MDEFMultiplier": 24.761904761904763,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "StoneTownResearchPower": 0.05,
+      "CrystalTownResearchPower": 0.05,
+      "LeafTownResearchPower": 0.05,
+      "SPDMultiplier": 0.3,
+      "TamingPointMultiplier": 0.25
+    }
+  },
+  {
+    "kind": "FlametigerStripedBriefs",
+    "part": "Armor",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 8.333333333333332,
+      "effects": 16.166666666666664,
+      "sum": 31.499999999999996
+    },
+    "relEffects": {
+      "DebuffResistance": 0,
+      "PhysicalCriticalMultiplier": 2.833333333333333,
+      "MagicalCriticalMultiplier": 2.833333333333333,
+      "EXPGainMultiplier": 13.333333333333332,
+      "GoldGainMultiplier": 13.433333333333332,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "ArmoredFury": 0.05,
+      "WardedFury": 0.05,
+      "GuildEXPGain": 0.01,
+      "PetEXPGainMultiplier": 0.25
+    }
+  },
+  {
+    "kind": "DevilfishSword",
+    "part": "Weapon",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 21.222222222222225,
+      "sum": 27.388888888888893
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "ATKMultiplier": 0.5809523809523808,
+      "MATKMultiplier": 0.5809523809523808,
+      "PhysicalCritical": 18.88888888888889,
+      "MagicalCritical": 18.88888888888889,
+      "CriticalDamage": 2.4333333333333336,
+      "WarriorSkillLevel": 2.6363636363636362,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "FairyShuriken",
+    "part": "Weapon",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 9.666666666666666,
+      "sum": 15.833333333333332
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "StoneGain": 8.59504132231405,
+      "ATKMultiplier": 12.58095238095238,
+      "ATKPropotion": 9.666666666666666,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "MATKMultiplier": 0.2,
+      "CriticalDamage": 0.1,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "FlametigerCostume",
+    "part": "Armor",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 8.333333333333332,
+      "effects": 0,
+      "sum": 15.333333333333332
+    },
+    "relEffects": {
+      "EquipmentProficiency": 0,
+      "PetPhysicalCriticalChance": 15.555555555555555,
+      "PetMagicalCriticalChance": 15.555555555555555,
+      "PetCriticalDamage": 3,
+      "TamingPointMultiplier": 6.666666666666666,
+      "PetEXPGainMultiplier": 6.916666666666666,
+      "LoyaltyPointGainMultiplier": 6.666666666666666,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "ArmoredFury": 0.05,
+      "WardedFury": 0.05,
+      "GoldGainMultiplier": 0.1,
+      "GuildEXPGain": 0.01
+    }
+  },
+  {
+    "kind": "BatBow",
+    "part": "Weapon",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 8.666666666666668,
+      "sum": 15.15909090909091
+    },
+    "relEffects": {
+      "SPDAdder": 104.29752066115702,
+      "ATKPropotion": 8.916666666666668,
+      "ArcherSkillLevel": 2.6363636363636362,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "EndlessBowlOfSpicyFlametigerRamen",
+    "part": "Jewelry",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 4.036796536796537,
+      "effects": 3.809523809523809,
+      "sum": 14.846320346320345
+    },
+    "relEffects": {
+      "TamingPoint": 0,
+      "LoyaltyPointGain": 0,
+      "StoneTownResearchPower": 8.787878787878787,
+      "CrystalTownResearchPower": 8.787878787878787,
+      "LeafTownResearchPower": 8.787878787878787,
+      "BlessingEffectMultiplier": 3.809523809523809,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "EXPGainMultiplier": 0.2,
+      "SkillProficiencyMultiplier": 0.2,
+      "RebirthPointGain3": 0.025,
+      "EquipmentProficiencyMultiplier": 0.1,
+      "LoyaltyPointGainMultiplier": 0.25
+    }
+  },
+  {
+    "kind": "TreantKokeshi",
+    "part": "Jewelry",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 7.333333333333334,
+      "sum": 14.356060606060607
+    },
+    "relEffects": {
+      "SPDAdder": 0,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "ColorMaterialDropChance": 3.3333333333333326,
+      "CriticalDamage": 7.333333333333334,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "FoxKanzashi",
+    "part": "Jewelry",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 7.272727272727273,
+      "sum": 14.295454545454547
+    },
+    "relEffects": {
+      "GoldGain": 3.0952380952380953,
+      "BlessingEffect": 7.272727272727273,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "ScreenOfTheSneakyFlametiger",
+    "part": "Jewelry",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 4.036796536796537,
+      "effects": 3.0303030303030303,
+      "sum": 14.067099567099568
+    },
+    "relEffects": {
+      "AllSkillLevel": 0,
+      "GoldGainMultiplier": 6.666666666666666,
+      "GuildEXPGain": 3.0303030303030303,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "EXPGainMultiplier": 0.2,
+      "SkillProficiencyMultiplier": 0.2,
+      "RebirthPointGain3": 0.025,
+      "EquipmentProficiencyMultiplier": 0.1,
+      "LoyaltyPointGainMultiplier": 0.25
+    }
+  },
+  {
+    "kind": "SpiderWing",
+    "part": "Weapon",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 7.222222222222222,
+      "sum": 13.714646464646464
+    },
+    "relEffects": {
+      "PhysicalCritical": 7.222222222222222,
+      "MagicalCritical": 7.222222222222222,
+      "PhysicalDamage": 4.242424242424242,
+      "LightDamage": 4.242424242424242,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "FoxEma",
+    "part": "Jewelry",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 6.363636363636363,
+      "sum": 13.386363636363637
+    },
+    "relEffects": {
+      "GoldGain": 3.0952380952380953,
+      "BlessingEffect": 6.363636363636363,
+      "EquipmentDropChance": 5.303030303030304,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "TreantDagger",
+    "part": "Weapon",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 6.666666666666667,
+      "sum": 12.833333333333334
+    },
+    "relEffects": {
+      "SPDAdder": 200,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "PhysicalDamage": 6.666666666666667,
+      "FireDamage": 6.666666666666667,
+      "IceDamage": 6.666666666666667,
+      "ThunderDamage": 6.666666666666667,
+      "LightDamage": 6.666666666666667,
+      "DarkDamage": 6.666666666666667,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "MATKMultiplier": 0.2,
+      "CriticalDamage": 0.1,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "FairyClothes",
+    "part": "Armor",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 6.363636363636363,
+      "sum": 12.666666666666666
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "TownMatGain": 6.363636363636363,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "GoldGain": 0.1,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "FoxLoincloth",
+    "part": "Armor",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 5.303030303030303,
+      "sum": 11.606060606060606
+    },
+    "relEffects": {
+      "GoldGain": 3.1952380952380954,
+      "EXPGain": 5.303030303030303,
+      "DEFMultiplier": 0.38095238095238076,
+      "MDEFMultiplier": 0.38095238095238076,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "FlametigerPortableHotSpring",
+    "part": "Jewelry",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 4.036796536796537,
+      "effects": 0,
+      "sum": 11.036796536796537
+    },
+    "relEffects": {
+      "SkillProficiency": 0,
+      "HPAdder": 107.43801652892562,
+      "MPAdder": 85.9504132231405,
+      "HPMultiplier": 16.19047619047619,
+      "MPMultiplier": 16.19047619047619,
+      "HpRegenMultiplier": 6.666666666666667,
+      "MpRegenMultiplier": 6.666666666666667,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "EXPGainMultiplier": 0.2,
+      "SkillProficiencyMultiplier": 0.2,
+      "RebirthPointGain3": 0.025,
+      "EquipmentProficiencyMultiplier": 0.1,
+      "LoyaltyPointGainMultiplier": 0.25
+    }
+  },
+  {
+    "kind": "FairyWing",
+    "part": "Weapon",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 4.833333333333333,
+      "sum": 11
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "LeafGain": 8.59504132231405,
+      "ATKMultiplier": 6.390476190476191,
+      "ATKPropotion": 4.833333333333333,
+      "MATKMultiplier": 6.390476190476191,
+      "MATKPropotion": 4.833333333333333,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "CriticalDamage": 0.1,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "MagicSlimeBow",
+    "part": "Weapon",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 3.9393939393939394,
+      "sum": 10.431818181818182
+    },
+    "relEffects": {
+      "MATKAdder": 2.1487603305785123,
+      "FireDamage": 3.9393939393939394,
+      "IceDamage": 3.9393939393939394,
+      "ThunderDamage": 3.9393939393939394,
+      "CrystalGain": 8.264462809917356,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "FairyBrooch",
+    "part": "Jewelry",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 3.181818181818181,
+      "sum": 10.204545454545455
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "EXPGain": 3.431818181818181,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "FoxHamayayumi",
+    "part": "Weapon",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 2.666666666666667,
+      "sum": 8.833333333333334
+    },
+    "relEffects": {
+      "GoldGain": 3.0952380952380953,
+      "CriticalDamage": 2.766666666666667,
+      "ArcherSkillLevel": 2.6363636363636362,
+      "DebuffResistance": 0.7333333333333334,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "MATKMultiplier": 0.2,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "DevilfishRecorder",
+    "part": "Weapon",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 2.5757575757575757,
+      "sum": 8.742424242424242
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "MATKPropotion": 9.666666666666666,
+      "IceDamage": 2.5757575757575757,
+      "DarkDamage": 2.5757575757575757,
+      "MPMultiplier": 0.38095238095238076,
+      "TamerSkillLevel": 2.6363636363636362,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "MATKMultiplier": 0.2,
+      "CriticalDamage": 0.1,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "FairyGlove",
+    "part": "Armor",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 2.2727272727272725,
+      "sum": 8.575757575757574
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "SkillProficiency": 2.2727272727272725,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "GoldGain": 0.1,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "BatMascaradeMask",
+    "part": "Jewelry",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.2272727272727273,
+      "effects": 2.121212121212121,
+      "sum": 8.348484848484848
+    },
+    "relEffects": {
+      "SPDAdder": 4.297520661157025,
+      "EXPGain": 2.121212121212121,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "HPMultiplier": 0.1,
+      "MPMultiplier": 0.1,
+      "RebirthPointGain1": 0.025,
+      "TownMatAreaClearGain": 2,
+      "LoyaltyPointGain": 0.2
+    }
+  },
+  {
+    "kind": "DevilfishGill",
+    "part": "Jewelry",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 1.0606060606060606,
+      "sum": 8.083333333333334
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "IceDamage": 1.0606060606060606,
+      "FireAbsorption": 1.8888888888888888,
+      "IceAbsorption": 1.8888888888888888,
+      "DarkAbsorption": 1.8888888888888888,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "DevilfishScarf",
+    "part": "Armor",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 1.0606060606060606,
+      "sum": 7.363636363636363
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "DEFMultiplier": 3.0952380952380953,
+      "DEFPropotion": 4.583333333333334,
+      "MDEFMultiplier": 3.0952380952380953,
+      "MDEFPropotion": 4.583333333333334,
+      "IceDamage": 1.0606060606060606,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "GoldGain": 0.1,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "SpiderFoldingFan",
+    "part": "Jewelry",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.2272727272727273,
+      "effects": 1.0606060606060606,
+      "sum": 7.287878787878788
+    },
+    "relEffects": {
+      "SkillProficiency": 1.0606060606060606,
+      "GoldGain": 6.190476190476191,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "HPMultiplier": 0.1,
+      "MPMultiplier": 0.1,
+      "RebirthPointGain1": 0.025,
+      "TownMatAreaClearGain": 2,
+      "LoyaltyPointGain": 0.2
+    }
+  },
+  {
+    "kind": "SlimeGlove",
+    "part": "Armor",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 1.0606060606060606,
+      "sum": 7.212121212121212
+    },
+    "relEffects": {
+      "SPDAdder": 102.31404958677686,
+      "SkillProficiency": 1.0606060606060606,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "FairyLamp",
+    "part": "Jewelry",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 0,
+      "sum": 7.022727272727273
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "TownMatAreaClearGain": 2.5454545454545454,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "FoxMask",
+    "part": "Jewelry",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 0,
+      "sum": 7.022727272727273
+    },
+    "relEffects": {
+      "GoldGain": 3.0952380952380953,
+      "MPMultiplier": 6.190476190476191,
+      "MpRegen": 6.190476190476191,
+      "PhysicalAbsorption": 0.7111111111111111,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "DevilfishPendant",
+    "part": "Jewelry",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 0,
+      "sum": 7.022727272727273
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "GoldGain": 12.380952380952381,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "DevilfishRing",
+    "part": "Jewelry",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 0,
+      "sum": 7.022727272727273
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "DebuffResistance": 2.1999999999999997,
+      "StoneGain": 20.826446280991735,
+      "CrystalGain": 20.826446280991735,
+      "LeafGain": 20.826446280991735,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "TreantAmulet",
+    "part": "Jewelry",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 0,
+      "sum": 7.022727272727273
+    },
+    "relEffects": {
+      "SPDAdder": 0,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "StoneGain": 72.72727272727273,
+      "CrystalGain": 72.72727272727273,
+      "LeafGain": 72.72727272727273,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "TreantLamp",
+    "part": "Jewelry",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 0,
+      "sum": 7.022727272727273
+    },
+    "relEffects": {
+      "SPDAdder": 0,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "GoldGain": 16.666666666666668,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "TreantLunchbox",
+    "part": "Jewelry",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 1.022727272727273,
+      "effects": 0,
+      "sum": 7.022727272727273
+    },
+    "relEffects": {
+      "SPDAdder": 0,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "CatalystDoubleCriticalChance": 3.090909090909091,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "EXPGain": 0.25,
+      "SkillProficiency": 0.1,
+      "RebirthPointGain2": 0.025,
+      "TownMatGain": 0.05,
+      "PetEXPGain": 0.25
+    }
+  },
+  {
+    "kind": "FlametigerVolcanicShield",
+    "part": "Weapon",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 0,
+      "effects": 0,
+      "sum": 7
+    },
+    "relEffects": {
+      "EXPGain": 0,
+      "PhysicalDamageMultiplier": 2.4761904761904763,
+      "ArmoredFury": 26.36363636363636,
+      "DEFAdder": 42.97520661157025,
+      "DEFMultiplier": 24.761904761904763,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "StoneTownResearchPower": 0.05,
+      "CrystalTownResearchPower": 0.05,
+      "LeafTownResearchPower": 0.05,
+      "SPDMultiplier": 0.3,
+      "TamingPointMultiplier": 0.25
+    }
+  },
+  {
+    "kind": "TorchOfEverburningFlametiger",
+    "part": "Weapon",
+    "setKind": "Flametiger",
+    "ese": {
+      "slots": 7,
+      "masteries": 0,
+      "effects": 0,
+      "sum": 7
+    },
+    "relEffects": {
+      "GoldGain": 0,
+      "WarriorSkillRange": 1.3333333333333333,
+      "WizardSkillRange": 1.3333333333333333,
+      "AngelSkillRange": 1.3333333333333333,
+      "ThiefSkillRange": 1.3333333333333333,
+      "ArcherSkillRange": 1.3333333333333333,
+      "TamerSkillRange": 1.3333333333333333,
+      "FlameTigerKnowledge": 2.4242424242424243,
+      "FlameTigerDropChance": 0.984848484848485,
+      "StoneTownResearchPower": 0.05,
+      "CrystalTownResearchPower": 0.05,
+      "LeafTownResearchPower": 0.05,
+      "SPDMultiplier": 0.3,
+      "TamingPointMultiplier": 0.25
+    }
+  },
+  {
+    "kind": "SlimePincenez",
+    "part": "Jewelry",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.2272727272727273,
+      "effects": 0.5303030303030303,
+      "sum": 6.757575757575758
+    },
+    "relEffects": {
+      "EXPGain": 0.5303030303030303,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "HPMultiplier": 0.1,
+      "MPMultiplier": 0.1,
+      "RebirthPointGain1": 0.025,
+      "TownMatAreaClearGain": 2,
+      "LoyaltyPointGain": 0.2
+    }
+  },
+  {
+    "kind": "SlimeSword",
+    "part": "Weapon",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "ATKAdder": 4.214876033057851,
+      "ATKMultiplier": 1.2380952380952381,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "SlimeWing",
+    "part": "Weapon",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "ATKMultiplier": 0.6190476190476191,
+      "MATKMultiplier": 0.6190476190476191,
+      "LightDamage": 7.878787878787879,
+      "AngelSkillLevel": 2.6363636363636362,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "SlimeDart",
+    "part": "Weapon",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "PhysicalDamage": 2.4242424242424243,
+      "DarkDamage": 2.4242424242424243,
+      "StoneGain": 8.264462809917356,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "MagicSlimeStick",
+    "part": "Weapon",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "MATKAdder": 4.214876033057851,
+      "MATKMultiplier": 1.2380952380952381,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "MagicSlimeRecorder",
+    "part": "Weapon",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "LeafGain": 8.264462809917356,
+      "TamerSkillLevel": 2.6363636363636362,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "SpiderDagger",
+    "part": "Weapon",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "MATKAdder": 6.446280991735537,
+      "DarkDamage": 4.242424242424242,
+      "ThiefSkillLevel": 2.6363636363636362,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "SpiderCatchingNet",
+    "part": "Weapon",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "TamingPoint": 6.431818181818181,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100
+    }
+  },
+  {
+    "kind": "SpiderStick",
+    "part": "Weapon",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "TamingPoint": 3.3409090909090904,
+      "ColorMaterialDropChance": 3.3333333333333326,
+      "WizardSkillLevel": 2.6363636363636362,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "SPDAdder": 100
+    }
+  },
+  {
+    "kind": "BatSword",
+    "part": "Weapon",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "SPDAdder": 104.29752066115702,
+      "ATKAdder": 10.743801652892563,
+      "ATKMultiplier": 6.190476190476191,
+      "WarriorSkillLevel": 2.6363636363636362,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05,
+      "TamingPoint": 0.25
+    }
+  },
+  {
+    "kind": "BatRecorder",
+    "part": "Weapon",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.49242424242424243,
+      "effects": 0,
+      "sum": 6.492424242424242
+    },
+    "relEffects": {
+      "SPDAdder": 104.29752066115702,
+      "TamerSkillLevel": 3.6363636363636362,
+      "TamingPoint": 4.977272727272727,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "ATKPropotion": 0.25,
+      "MATKPropotion": 0.25,
+      "SkillProficiency": 0.05
+    }
+  },
+  {
+    "kind": "FairyBoots",
+    "part": "Armor",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 0,
+      "sum": 6.303030303030303
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "MoveSpeedAdder": 4.242424242424242,
+      "LightResistance": 3.6363636363636367,
+      "LightAbsorption": 1.8888888888888888,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "GoldGain": 0.1,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "FoxHat",
+    "part": "Armor",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 0,
+      "sum": 6.303030303030303
+    },
+    "relEffects": {
+      "GoldGain": 3.1952380952380954,
+      "HPAdder": 4.793388429752066,
+      "HPMultiplier": 1.619047619047619,
+      "HpRegen": 4.333333333333333,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "FoxCoat",
+    "part": "Armor",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 0,
+      "sum": 6.303030303030303
+    },
+    "relEffects": {
+      "GoldGain": 3.1952380952380954,
+      "IceResistance": 4.090909090909091,
+      "ThunderResistance": 4.090909090909091,
+      "LightResistance": 4.090909090909091,
+      "ThunderAbsorption": 1.8888888888888888,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "FoxBoot",
+    "part": "Armor",
+    "setKind": "Fox",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 0,
+      "sum": 6.303030303030303
+    },
+    "relEffects": {
+      "GoldGain": 3.1952380952380954,
+      "MoveSpeedMultiplier": 0.6060606060606057,
+      "MATKPropotion": 9.666666666666666,
+      "ThunderDamage": 2.5757575757575757,
+      "LightDamage": 2.5757575757575757,
+      "FoxKnowledge": 2.4242424242424243,
+      "FoxDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "DevilfishArmor",
+    "part": "Armor",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 0,
+      "sum": 6.303030303030303
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "DEFAdder": 10.743801652892563,
+      "MDEFAdder": 10.743801652892563,
+      "HPMultiplier": 1.380952380952381,
+      "FireResistance": 4.090909090909091,
+      "DarkResistance": 4.090909090909091,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "GoldGain": 0.1,
+      "SPDAdder": 200,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "TreantChoppingBoard",
+    "part": "Armor",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 0,
+      "sum": 6.303030303030303
+    },
+    "relEffects": {
+      "SPDAdder": 200,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "HPAdder": 4.297520661157025,
+      "DEFAdder": 21.487603305785125,
+      "MDEFAdder": 21.487603305785125,
+      "DEFMultiplier": 12.380952380952381,
+      "MDEFMultiplier": 12.380952380952381,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "GoldGain": 0.1,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "TreantHaniwa",
+    "part": "Armor",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.30303030303030304,
+      "effects": 0,
+      "sum": 6.303030303030303
+    },
+    "relEffects": {
+      "SPDAdder": 200,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "HPAdder": 11.570247933884298,
+      "HPMultiplier": 6.666666666666666,
+      "HpRegen": 108.33333333333333,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "DEFPropotion": 0.25,
+      "MDEFPropotion": 0.25,
+      "GoldGain": 0.1,
+      "EquipmentProficiency": 0.1
+    }
+  },
+  {
+    "kind": "SlimeRing",
+    "part": "Jewelry",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.2272727272727273,
+      "effects": 0,
+      "sum": 6.2272727272727275
+    },
+    "relEffects": {
+      "StoneGain": 4.132231404958678,
+      "CrystalGain": 4.132231404958678,
+      "LeafGain": 4.132231404958678,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "HPMultiplier": 0.1,
+      "MPMultiplier": 0.1,
+      "RebirthPointGain1": 0.025,
+      "TownMatAreaClearGain": 2,
+      "LoyaltyPointGain": 0.2
+    }
+  },
+  {
+    "kind": "MagicSlimeEarring",
+    "part": "Jewelry",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.2272727272727273,
+      "effects": 0,
+      "sum": 6.2272727272727275
+    },
+    "relEffects": {
+      "GoldGain": 3.333333333333333,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "HPMultiplier": 0.1,
+      "MPMultiplier": 0.1,
+      "RebirthPointGain1": 0.025,
+      "TownMatAreaClearGain": 2,
+      "LoyaltyPointGain": 0.2
+    }
+  },
+  {
+    "kind": "MagicSlimeBalloon",
+    "part": "Jewelry",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.2272727272727273,
+      "effects": 0,
+      "sum": 6.2272727272727275
+    },
+    "relEffects": {
+      "ColorMaterialDropChance": 4.09090909090909,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "HPMultiplier": 0.1,
+      "MPMultiplier": 0.1,
+      "RebirthPointGain1": 0.025,
+      "TownMatAreaClearGain": 2,
+      "LoyaltyPointGain": 0.2
+    }
+  },
+  {
+    "kind": "BatRing",
+    "part": "Jewelry",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.2272727272727273,
+      "effects": 0,
+      "sum": 6.2272727272727275
+    },
+    "relEffects": {
+      "SPDAdder": 4.297520661157025,
+      "DebuffResistance": 1.4666666666666668,
+      "StoneGain": 8.264462809917356,
+      "CrystalGain": 8.264462809917356,
+      "LeafGain": 8.264462809917356,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "HPMultiplier": 0.1,
+      "MPMultiplier": 0.1,
+      "RebirthPointGain1": 0.025,
+      "TownMatAreaClearGain": 2,
+      "LoyaltyPointGain": 0.2
+    }
+  },
+  {
+    "kind": "FairyStaff",
+    "part": "Weapon",
+    "setKind": "Fairy",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 0,
+      "sum": 6.166666666666667
+    },
+    "relEffects": {
+      "MPAdder": 4.297520661157025,
+      "CrystalGain": 8.59504132231405,
+      "MATKMultiplier": 12.58095238095238,
+      "MATKPropotion": 9.666666666666666,
+      "FairyKnowledge": 2.4242424242424243,
+      "FairyDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "CriticalDamage": 0.1,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "DevilfishWing",
+    "part": "Weapon",
+    "setKind": "Devilfish",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 0,
+      "sum": 6.166666666666667
+    },
+    "relEffects": {
+      "HPAdder": 4.297520661157025,
+      "HPMultiplier": 1.380952380952381,
+      "ATKMultiplier": 6.390476190476191,
+      "MATKMultiplier": 6.390476190476191,
+      "FireResistance": 4.090909090909091,
+      "AngelSkillLevel": 2.6363636363636362,
+      "DevilFishKnowledge": 2.4242424242424243,
+      "DevilFishDropChance": 0.984848484848485,
+      "CriticalDamage": 0.1,
+      "SPDAdder": 200,
+      "TamingPoint": 0.5
+    }
+  },
+  {
+    "kind": "TreantHagoita",
+    "part": "Weapon",
+    "setKind": "Treant",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.16666666666666669,
+      "effects": 0,
+      "sum": 6.166666666666667
+    },
+    "relEffects": {
+      "SPDAdder": 200,
+      "MoveSpeedAdder": 0,
+      "MoveSpeedMultiplier": 0,
+      "TamingPoint": 12.318181818181817,
+      "PetEXPGain": 11.818181818181817,
+      "LoyaltyPointGain": 11.818181818181817,
+      "TreantKnowledge": 2.4242424242424243,
+      "TreantDropChance": 0.984848484848485,
+      "ATKMultiplier": 0.2,
+      "MATKMultiplier": 0.2,
+      "CriticalDamage": 0.1
+    }
+  },
+  {
+    "kind": "SlimeBelt",
+    "part": "Armor",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "DEFAdder": 2.0661157024793386,
+      "DebuffResistance": 1.4666666666666668,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "SlimePoncho",
+    "part": "Armor",
+    "setKind": "Slime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "HPAdder": 4.132231404958677,
+      "HPMultiplier": 1.619047619047619,
+      "SlimeKnowledge": 2.4242424242424243,
+      "SlimeDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "MagicSlimeHat",
+    "part": "Armor",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "MDEFAdder": 4.132231404958677,
+      "MDEFMultiplier": 3.1952380952380954,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "MagicSlimeShoes",
+    "part": "Armor",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "FireResistance": 3.6363636363636367,
+      "IceResistance": 3.6363636363636367,
+      "ThunderResistance": 3.6363636363636367,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "MagicSlimeSkirt",
+    "part": "Armor",
+    "setKind": "Magicslime",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "MPAdder": 8.59504132231405,
+      "MPMultiplier": 3.333333333333333,
+      "MagicSlimeKnowledge": 2.4242424242424243,
+      "MagicSlimeDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "SpiderHat",
+    "part": "Armor",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "HPAdder": 4.793388429752066,
+      "DEFMultiplier": 3.1952380952380954,
+      "DEFPropotion": 4.333333333333334,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "SpiderSkirt",
+    "part": "Armor",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "DarkResistance": 3.6363636363636367,
+      "DarkAbsorption": 1.8888888888888888,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "SpiderSuit",
+    "part": "Armor",
+    "setKind": "Spider",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "HPAdder": 4.793388429752066,
+      "MDEFMultiplier": 3.1952380952380954,
+      "MDEFPropotion": 4.333333333333334,
+      "SpiderKnowledge": 2.4242424242424243,
+      "SpiderDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "SPDAdder": 100,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "BatShoes",
+    "part": "Armor",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "SPDAdder": 104.29752066115702,
+      "MoveSpeedAdder": 4.242424242424242,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "BatHat",
+    "part": "Armor",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "SPDAdder": 104.29752066115702,
+      "FireAbsorption": 1.8888888888888888,
+      "IceAbsorption": 1.8888888888888888,
+      "ThunderAbsorption": 1.8888888888888888,
+      "LightAbsorption": 1.8888888888888888,
+      "DarkAbsorption": 1.8888888888888888,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "EquipmentProficiency": 0.05
+    }
+  },
+  {
+    "kind": "BatCloak",
+    "part": "Armor",
+    "setKind": "Bat",
+    "ese": {
+      "slots": 6,
+      "masteries": 0.15151515151515152,
+      "effects": 0,
+      "sum": 6.151515151515151
+    },
+    "relEffects": {
+      "SPDAdder": 104.29752066115702,
+      "PhysicalAbsorption": 1.8888888888888888,
+      "MPAdder": 8.59504132231405,
+      "MPMultiplier": 6.190476190476191,
+      "BatKnowledge": 2.4242424242424243,
+      "BatDropChance": 0.984848484848485,
+      "DEFMultiplier": 0.1,
+      "MDEFMultiplier": 0.1,
+      "HpRegen": 10,
+      "EquipmentProficiency": 0.05
+    }
+  }
+]

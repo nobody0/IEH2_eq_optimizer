@@ -1,0 +1,236 @@
+{
+  "Jewelry": [
+    {
+      "kind": "EndlessBowlOfSpicyFlametigerRamen",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "EndlessBowlOfSpicyFlametigerRamen",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "EndlessBowlOfSpicyFlametigerRamen",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "EndlessBowlOfSpicyFlametigerRamen",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "FoxKanzashi",
+      "setKind": "Fox"
+    },
+    {
+      "kind": "TreantKokeshi",
+      "setKind": "Treant"
+    },
+    {
+      "kind": "TreantKokeshi",
+      "setKind": "Treant"
+    },
+    {
+      "kind": "TreantKokeshi",
+      "setKind": "Treant"
+    },
+    {
+      "kind": "TreantKokeshi",
+      "setKind": "Treant"
+    },
+    {
+      "kind": "TreantKokeshi",
+      "setKind": "Treant"
+    },
+    {
+      "kind": "TreantKokeshi",
+      "setKind": "Treant"
+    },
+    {
+      "kind": "TreantKokeshi",
+      "setKind": "Treant"
+    }
+  ],
+  "Armor": [
+    {
+      "kind": "FairyClothes",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyClothes",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyClothes",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyClothes",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyClothes",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyClothes",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FlametigerStripedBriefs",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "FoxLoincloth",
+      "setKind": "Fox"
+    }
+  ],
+  "Weapon": [
+    {
+      "kind": "DevilfishSword",
+      "setKind": "Devilfish"
+    },
+    {
+      "kind": "DevilfishSword",
+      "setKind": "Devilfish"
+    },
+    {
+      "kind": "DevilfishSword",
+      "setKind": "Devilfish"
+    },
+    {
+      "kind": "DevilfishSword",
+      "setKind": "Devilfish"
+    },
+    {
+      "kind": "DevilfishSword",
+      "setKind": "Devilfish"
+    },
+    {
+      "kind": "DevilfishSword",
+      "setKind": "Devilfish"
+    },
+    {
+      "kind": "FairyShuriken",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyShuriken",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyShuriken",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyShuriken",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "FairyShuriken",
+      "setKind": "Fairy"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    },
+    {
+      "kind": "RingOfFlametigersWrath",
+      "setKind": "Flametiger"
+    }
+  ]
+}

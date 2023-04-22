@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "ieh2_itemoptimizerjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "step1": "node step1.js",
+    "step2": "node step2.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
